@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "--",
+    valentineName: "Habib",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['❤️', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', ' 🐧']                       // Cute bear emojis
     },
 
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Siguiente ❤️"                                         // Text for the next button
         },
         third: {
-            text: "¿Quieres y puedes ir conmigo a Andamar este sábado? 🌹", // The big question!
+            text: "¿? 🌹", // The big question!
             yesBtn: "!Sí!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "!Yupi! 🎉💝💖💝💓",
-        message: "!Nos vemos pronto! 😡",
+        message: "!Ok¡ 😡",
         emojis: "💓 💗 💕 "  // These will bounce around
     },
 
