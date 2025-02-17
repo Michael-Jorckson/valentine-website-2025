@@ -33,9 +33,9 @@ const CONFIG = {
             nextBtn: "Siguiente ❤️"                                         // Text for the next button
         },
         third: {
-            text: "¿? 🌹", // The big question!
-            yesBtn: "!Sí!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "¿Por qué? 🌹", // The big question!
+            yesBtn: "No te quiero decir",                                             // Text for "Yes" button
+            noBtn: "Me estás obligando"                                                 // Text for "No" button
         }
     },
 
@@ -49,8 +49,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "!Yupi! 🎉💝💖💝💓",
-        message: "!Ok¡ 😡",
+        title: "¡Yupi! 🎉💝💖💝💓",
+        message: "¡Ok! 😡",
         emojis: "💓 💗 💕 "  // These will bounce around
     },
 
