@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "(Nombre)",
+    valentineName: "E",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['🍓', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', ' 🐧']                       // Cute bear emojis
     },
 
@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "¿Me odias?",                                    // First interaction
+            text: "¿Te gusta la nieve?",                                    // First interaction
             yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "No te odio, te detesto ❤️"           // Secret hover message
+            secretAnswer: "No me gusta, me encanta ❤️"           // Secret hover message
         },
         second: {
             text: "¡Qué tanto?",                          // For the love meter
@@ -33,9 +33,9 @@ const CONFIG = {
             nextBtn: "Siguiente ❤️"                                         // Text for the next button
         },
         third: {
-            text: "¿Por qué? 🌹", // The big question!
-            yesBtn: "No te quiero decir",                                             // Text for "Yes" button
-            noBtn: "Me estás obligando"                                                 // Text for "No" button
+            text: "¿Quieres ir a este lugar de Andamar donde hay nieve que no sé como se llama este sábado conmigo? 🌹", // The big question!
+            yesBtn: "Sí",                                             // Text for "Yes" button
+            noBtn: "No"                                                 // Text for "No" button
         }
     },
 
@@ -49,18 +49,18 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "¡Yupi! 🎉💝💖💝💓",
-        message: "¡Ok! 😡",
-        emojis: "💓 💗 💕 "  // These will bounce around
+        title: "¡Yupi! 🎉💝💖💓",
+        message: "¡Primero dime si puedes ir! 🙏",
+        emojis: "💓 💗 🍓 "  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
+        backgroundStart: "#FC9FB1",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#FC5A8D",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
+        buttonHover: "#4F6D3A",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
@@ -81,7 +81,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dsehs8on3/video/upload/v1739754057/mmmrbvdazniivpkya4p3.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        volume: 1.0                        // Volume level (0.0 to 1.0)
     }
 };
 
