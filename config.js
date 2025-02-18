@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Siguiente ❤️"                                         // Text for the next button
         },
         third: {
-            text: "¿Quieres ir a este lugar de Andamar donde hay nieve que no sé como se llama este sábado conmigo? 🌹", // The big question!
+            text: "¿Quieres ir a este lugar de Andamar con hay nieve que no sé como se llama conmigo? (Este sábado) 🌹", // The big question!
             yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "¡Yupi! 🎉💝💖💓",
-        message: "¡Primero dime si puedes ir! 🙏",
+        message: "¡Nos vemos!",
         emojis: "💓 💗 🍓 "  // These will bounce around
     },
 
@@ -58,8 +58,8 @@ const CONFIG = {
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
         backgroundStart: "#FC9FB1",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#FC5A8D",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        backgroundEnd: "#EC4653",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#8CB360",     // Button color (should stand out against the background)
         buttonHover: "#4F6D3A",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
