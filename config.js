@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Siguiente ❤️"                                         // Text for the next button
         },
         third: {
-            text: "¿Quieres ir a este lugar de Andamar con hay nieve que no sé como se llama conmigo? (Este sábado) 🌹", // The big question!
+            text: "¿Quieres ir conmigo a este lugar en Andamar con nieve, que no sé cómo se llama, este sábado? 🌹", // The big question!
             yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
